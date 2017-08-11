@@ -1,0 +1,67 @@
+/*
+* @Author: Administrator
+* @Date:   2017-08-08 17:55:16
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-08-08 20:13:56
+*/
+		* {
+			padding: 0;
+			margin: 0;
+			list-style-type: none;
+			-webkit-user-select: none;
+		}
+		
+		ul {
+			position: relative;
+			border: 5px solid salmon;
+			overflow: hidden;
+		}
+		
+		li {
+			position: absolute;
+			background: #008000;
+			float: left;
+			box-sizing: border-box;
+			border: 1px solid saddlebrown;
+			background-repeat: no-repeat;
+			transition: all .2s;
+			-webkit-transition: all .2s;
+			-moz-transition: all .2s;
+		}
+		
+		#hidden {
+			display: none;
+		}
+		
+		#stratBtn,
+		#stratBtnB {
+			width: 200px;
+			height: 50px;
+			text-align: center;
+			line-height: 50px;
+			color: #fff;
+			background: salmon;
+			margin: 20px 50px;
+			cursor: pointer;
+			overflow: hidden;
+		}
+		
+		p {
+			display: block;
+			width: 80px;
+			height: 35px;
+			border: solid salmon 1px;
+			text-align: center;
+			line-height: 35px;
+			color: #fff;
+			background-color: salmon;
+			float: left;
+			overflow: hidden;
+			cursor: pointer;
+			margin-bottom: 10px;
+		}
+		
+		#option {
+			width: 100%;
+			overflow: hidden;
+		}
